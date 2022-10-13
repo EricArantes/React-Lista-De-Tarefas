@@ -8,9 +8,9 @@ const App = () => {
   const [tasks, setTasks] = 
   useState(
     [
-      {id: 1, text: 'doctors appointment', day: 'Feb 14th at 2:30pm', reminder: true},
-      {id: 2, text: 'ball game', day: 'Mar 4th at 3:30pm', reminder: false},
-      {id: 3, text: 'shitting loudly', day: 'Jan 2nd at 4:00pm', reminder: true}
+      {id: 1, text: 'Doctors appointment', day: 'Feb 14th at 2:30pm', reminder: true},
+      {id: 2, text: 'Football game', day: 'Mar 4th at 3:30pm', reminder: false},
+      {id: 3, text: 'Family Dinner', day: 'Jan 2nd at 9:00pm', reminder: true}
   ])
 
   //ADD TASK
